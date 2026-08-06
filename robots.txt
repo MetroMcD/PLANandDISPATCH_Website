@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dispatcher-ai.de/sitemap.xml
