@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI Dispatch Board for Service Teams — PLAN and DISPATCH</title>
-<meta name="description" content="PLAN and DISPATCH is the AI-powered dispatch board for consulting and service teams: automatic task assignment, effort estimation, time tracking and project controlling. Self-hosted via Docker, in the browser and as an app for iOS and Android.">
+<meta name="description" content="PLAN and DISPATCH is the AI-powered dispatch board for consulting and service teams: automatic task assignment, effort estimation, time tracking and project controlling. Free to use as a Docker container, in the browser and as an app for iOS and Android.">
 <link rel="canonical" href="https://dispatcher-ai.de/en/">
 <link rel="alternate" hreflang="de" href="https://dispatcher-ai.de/">
 <link rel="alternate" hreflang="en" href="https://dispatcher-ai.de/en/">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="PLAN and DISPATCH">
 <meta property="og:title" content="AI Dispatch Board for Service Teams — PLAN and DISPATCH">
-<meta property="og:description" content="PLAN and DISPATCH is the AI-powered dispatch board for consulting and service teams: automatic task assignment, effort estimation, time tracking and project controlling. Self-hosted via Docker, in the browser and as an app for iOS and Android.">
+<meta property="og:description" content="PLAN and DISPATCH is the AI-powered dispatch board for consulting and service teams: automatic task assignment, effort estimation, time tracking and project controlling. Free to use as a Docker container, in the browser and as an app for iOS and Android.">
 <meta property="og:url" content="https://dispatcher-ai.de/en/">
 <meta property="og:image" content="https://dispatcher-ai.de/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
@@ -23,6 +23,16 @@
 <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png?v=2">
 <link rel="icon" href="/favicon.ico?v=2">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"PLAN and DISPATCH",
+"applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android",
+"softwareVersion":"2.118","url":"https://dispatcher-ai.de/en/",
+"downloadUrl":"https://hub.docker.com/r/plananddispatchai/plan-and-dispatch-ai",
+"installUrl":"https://hub.docker.com/r/plananddispatchai/plan-and-dispatch-ai",
+"description":"AI-powered task and dispatch board for service and consulting teams. Self-hosted via Docker.",
+"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR","availability":"https://schema.org/InStock"},
+"author":{"@type":"Person","name":"René Münz","url":"https://dispatcher-ai.de/en/about.html"}}
+</script>
 <style>
 html{scroll-behavior:smooth}
 body{margin:0;background:#f6f8f9;color:#17242c;font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,sans-serif;-webkit-font-smoothing:antialiased}
@@ -63,6 +73,7 @@ img[width][height]{height:auto;align-self:flex-start}
       <a class="hv-link" href="#controlling" style="color:#3d4f59">Controlling</a>
       <a class="hv-link" href="#integration" style="color:#3d4f59">Integrations</a>
       <a class="hv-link" href="#apps" style="color:#3d4f59">Apps</a>
+      <a class="hv-link" href="#start" style="color:#3d4f59">Download</a>
       <a class="hv-link" href="#kontakt" style="color:#3d4f59">Contact</a>
       <a class="pnd-lang-mobile" href="/" hreflang="de">Deutsch (DE)</a>
     </nav>
@@ -72,12 +83,12 @@ img[width][height]{height:auto;align-self:flex-start}
 </header>
 
 <section id="top" style="max-width:1140px;margin:0 auto;padding:72px 24px 40px;text-align:center">
-  <div style="display:inline-flex;align-items:center;gap:8px;background:#e5f2f7;color:#0a5f7c;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;margin-bottom:24px">Coming soon</div>
+  <div style="display:inline-flex;align-items:center;gap:8px;background:#e5f2f7;color:#0a5f7c;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;margin-bottom:24px">Free to use · now on Docker Hub</div>
   <h1 style="font-family:'Avenir Next','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:clamp(34px,5.4vw,60px);font-weight:700;line-height:1.08;margin:0 0 20px;letter-spacing:-0.02em">Tasks come in. AI dispatches.<br>Your team delivers.</h1>
   <p style="font-size:18px;line-height:1.6;color:#5b6b74;max-width:760px;margin:0 auto 32px;text-wrap:pretty">PLAN and DISPATCH is the AI-powered dispatch board for consulting and service teams — with automatic task assignment, effort estimation, time tracking and project controlling. Self-hosted, in the browser and as an app for iOS and Android.</p>
   <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:56px">
-    <a class="hv-cta" href="#ki" style="background:#0e7a9e;color:#fff;border-radius:10px;padding:13px 26px;font-weight:600;font-size:15px">See features</a>
-    <a class="hv-box" href="mailto:info@dispatcher-ai.de" style="background:#fff;color:#17242c;border:1px solid #c8d4da;border-radius:10px;padding:13px 26px;font-weight:600;font-size:15px">Get in touch</a>
+    <a class="hv-cta" href="#start" style="background:#0e7a9e;color:#fff;border-radius:10px;padding:13px 26px;font-weight:600;font-size:15px">Download now</a>
+    <a class="hv-box" href="#ki" style="background:#fff;color:#17242c;border:1px solid #c8d4da;border-radius:10px;padding:13px 26px;font-weight:600;font-size:15px">See features</a>
   </div>
   <img src="/assets/board-kanban.webp" alt="PLAN and DISPATCH board: one Kanban column per team member with AI-dispatched tasks" style="width:100%;max-width:1080px;border-radius:14px;border:1px solid #dbe3e8;box-shadow:0 24px 60px -20px rgba(13,27,35,0.35);display:block;margin:0 auto" width="2160" height="1109" decoding="async" fetchpriority="high">
 </section>
@@ -176,16 +187,35 @@ img[width][height]{height:auto;align-self:flex-start}
   </div>
 </section>
 
-<section id="kontakt" style="max-width:1140px;margin:0 auto;padding:88px 24px;text-align:center">
-  <div style="max-width:640px;margin:0 auto 40px;background:linear-gradient(135deg,#0e7a9e,#123a4d);color:#fff;border-radius:16px;padding:36px 32px">
-    <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.15);border-radius:999px;padding:5px 13px;font-size:13px;font-weight:600;margin-bottom:16px">Testing opens on 01 Aug 2026</div>
-    <h3 style="font-family:'Avenir Next','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:22px;font-weight:700;margin:0 0 10px;color:#fff">Secure your test access</h3>
-    <p style="font-size:15px;line-height:1.6;color:#dcecf2;margin:0 0 22px;text-wrap:pretty">From 1 August 2026 we're opening the first test accounts.</p>
-    <a class="hv-soft" href="mailto:testlogin@dispatcher-ai.de?subject=Request%20Dispatcher%20test%20login&amp;body=Hello%2C%0A%0AI%20would%20like%20to%20request%20a%20Plan%20and%20Dispatch%20AI%20test%20access.%0A%0AUsername%3A%20%0A%0APrivacy%20notice%3A%20By%20sending%20this%20email%20I%20consent%20to%20my%20email%20address%20and%20the%20data%20I%20provide%20being%20processed%20solely%20for%20the%20purpose%20of%20setting%20up%2C%20providing%20and%20managing%20my%20test%20access.%20Processing%20is%20based%20on%20Art.%206(1)(a)%20and%20(b)%20GDPR.%20More%20information%3A%20https%3A%2F%2Fdispatcher-ai.de%2Fen%2Fprivacy.html" style="display:inline-block;background:#fff;color:#0e7a9e;border-radius:10px;padding:13px 28px;font-weight:600;font-size:15px">Request test login</a>
-    <p style="font-size:12px;line-height:1.55;color:#bcd4de;margin:18px 0 0;text-wrap:pretty">Your email address and the data you provide are processed solely for the purpose of providing and managing the test access (Art. 6(1)(a) and (b) GDPR). Details in our <a href="/en/privacy.html" style="color:#fff;text-decoration:underline">privacy policy</a>.</p>
+<section id="start" style="max-width:1140px;margin:0 auto;padding:80px 24px">
+  <p style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#0e7a9e;margin:0 0 10px">Get started</p>
+  <h2 style="font-family:'Avenir Next','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:clamp(26px,3.4vw,38px);font-weight:700;margin:0 0 14px;letter-spacing:-0.01em">Two ways to your own board.</h2>
+  <p style="font-size:16px;line-height:1.6;color:#5b6b74;max-width:720px;margin:0 0 40px;text-wrap:pretty">The container is free to use and lives on Docker Hub — PLAN and DISPATCH runs inside your own network within minutes. Prefer to look around first? We'll set you up on our hosted test instance.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px;align-items:start">
+
+    <div style="background:linear-gradient(135deg,#0e7a9e,#123a4d);color:#fff;border-radius:16px;padding:32px">
+      <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.15);border-radius:999px;padding:5px 13px;font-size:13px;font-weight:600;margin-bottom:16px">Free to use</div>
+      <h3 style="font-family:'Avenir Next','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px;font-weight:700;margin:0 0 10px;color:#fff">Self-host — now on Docker Hub</h3>
+      <p style="font-size:15px;line-height:1.65;color:#dcecf2;margin:0 0 20px;text-wrap:pretty">One image for <strong style="color:#fff">amd64 and arm64</strong>, around 105 MB, up and running in minutes. It runs inside your own network — your data stays in house, no cloud required.</p>
+      <code style="display:block;background:rgba(255,255,255,0.14);border-radius:8px;padding:12px 14px;margin:0 0 22px;font-size:13px;line-height:1.5;color:#fff;overflow-x:auto;white-space:nowrap">docker pull plananddispatchai/plan-and-dispatch-ai</code>
+      <a class="hv-soft" href="https://hub.docker.com/r/plananddispatchai/plan-and-dispatch-ai" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#fff;color:#0e7a9e;border-radius:10px;padding:13px 28px;font-weight:600;font-size:15px">View on Docker Hub</a>
+      <p style="font-size:12px;line-height:1.55;color:#bcd4de;margin:18px 0 0;text-wrap:pretty">Current version 2.118 — tags <code style="background:rgba(255,255,255,0.14);border-radius:5px;padding:1px 6px;font-size:12px;color:#fff">latest</code>, <code style="background:rgba(255,255,255,0.14);border-radius:5px;padding:1px 6px;font-size:12px;color:#fff">2</code> and <code style="background:rgba(255,255,255,0.14);border-radius:5px;padding:1px 6px;font-size:12px;color:#fff">2.118</code>.</p>
+    </div>
+
+    <div style="background:#fff;border:1px solid #e2e8ec;border-radius:16px;padding:32px">
+      <div style="display:inline-flex;align-items:center;gap:8px;background:#e5f2f7;color:#0a5f7c;border-radius:999px;padding:5px 13px;font-size:13px;font-weight:600;margin-bottom:16px">Hosted test instance</div>
+      <h3 style="font-family:'Avenir Next','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px;font-weight:700;margin:0 0 10px">Look around before you install</h3>
+      <p style="font-size:15px;line-height:1.65;color:#5b6b74;margin:0 0 20px;text-wrap:pretty">No setup, no Docker: we'll create a test account on an instance we run — you click through the real board and try things out at your own pace. Test accounts can still be requested at any time.</p>
+      <a class="hv-cta" href="mailto:testlogin@dispatcher-ai.de?subject=Request%20Dispatcher%20test%20login&amp;body=Hello%2C%0A%0AI%20would%20like%20to%20request%20a%20Plan%20and%20Dispatch%20AI%20test%20access.%0A%0AUsername%3A%20%0A%0APrivacy%20notice%3A%20By%20sending%20this%20email%20I%20consent%20to%20my%20email%20address%20and%20the%20data%20I%20provide%20being%20processed%20solely%20for%20the%20purpose%20of%20setting%20up%2C%20providing%20and%20managing%20my%20test%20access.%20Processing%20is%20based%20on%20Art.%206(1)(a)%20and%20(b)%20GDPR.%20More%20information%3A%20https%3A%2F%2Fdispatcher-ai.de%2Fen%2Fprivacy.html" style="display:inline-block;background:#0e7a9e;color:#fff;border-radius:10px;padding:13px 28px;font-weight:600;font-size:15px">Request test login</a>
+      <p style="font-size:12px;line-height:1.55;color:#8a9aa3;margin:18px 0 0;text-wrap:pretty">Your email address and the data you provide are processed solely for the purpose of providing and managing the test access (Art. 6(1)(a) and (b) GDPR). Details in our <a href="/en/privacy.html">privacy policy</a>.</p>
+    </div>
+
   </div>
+</section>
+
+<section id="kontakt" style="max-width:1140px;margin:0 auto;padding:88px 24px;text-align:center">
   <h2 style="font-family:'Avenir Next','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:clamp(26px,3.6vw,40px);font-weight:700;margin:0 0 14px;letter-spacing:-0.01em">Interested? Let's talk.</h2>
-  <p style="font-size:16px;line-height:1.6;color:#5b6b74;max-width:560px;margin:0 auto 28px;text-wrap:pretty">PLAN and DISPATCH is currently in beta and coming soon.</p>
+  <p style="font-size:16px;line-height:1.6;color:#5b6b74;max-width:560px;margin:0 auto 28px;text-wrap:pretty">PLAN and DISPATCH is free to use and under active development. Questions about running it, connecting your AI provider or rolling it out across the team? Drop us a line — we reply quickly.</p>
   <a class="hv-cta" href="mailto:info@dispatcher-ai.de" style="display:inline-block;background:#0e7a9e;color:#fff;border-radius:10px;padding:14px 30px;font-weight:600;font-size:15px">Get in touch</a>
 </section>
 
